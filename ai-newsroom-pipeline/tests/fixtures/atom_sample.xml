@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Przykładowe źródło ogólnopolskie</title>
+  <entry>
+    <title>Nowy most na Wiśle otwarty dla ruchu po trzech latach budowy</title>
+    <link rel="alternate" href="https://other.example.net/2026/10/most"/>
+    <updated>2026-10-29T08:45:00Z</updated>
+    <summary>Kierowcy mogą już korzystać z nowej przeprawy.</summary>
+    <category term="transport"/>
+  </entry>
+  <entry>
+    <title>Ceny energii w listopadzie bez zmian</title>
+    <link href="https://other.example.net/2026/10/energia"/>
+    <published>2026-10-29T07:00:00Z</published>
+  </entry>
+</feed>

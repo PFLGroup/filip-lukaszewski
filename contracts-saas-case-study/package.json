@@ -1,0 +1,21 @@
+{
+  "name": "contracts-saas-case-study",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Case study + generic re-implemented snippets: AES-256-GCM field encryption, RBAC with tenant/ownership scoping, Next.js CVE-2025-29927 edge mitigation.",
+  "author": "Filip Łukaszewski <filip.lukaszewski91@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

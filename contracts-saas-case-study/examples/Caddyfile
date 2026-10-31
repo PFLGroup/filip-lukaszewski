@@ -1,0 +1,30 @@
+# Przykład (domena fikcyjna) — fragment konfiguracji reverse proxy z hardeningiem.
+# Caddy sam uzyskuje i odnawia certyfikat Let's Encrypt dla domeny.
+
+app.example.com {
+	encode zstd gzip
+
+	# CVE-2025-29927: wewnętrzny nagłówek Next.js nie może przyjść od klienta.
+	request_header -X-Middleware-Subrequest
+
+	# Endpointy administracyjne niedostępne z zewnątrz niezależnie od aplikacji.
+	@setup path /api/setup/*
+	respond @setup 403
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "SAMEORIGIN"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+		-Server
+		-X-Powered-By
+	}
+
+	handle /api/* {
+		reverse_proxy api:3001
+	}
+	handle {
+		reverse_proxy web:3000
+	}
+}

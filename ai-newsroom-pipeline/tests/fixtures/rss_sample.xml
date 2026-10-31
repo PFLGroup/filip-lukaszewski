@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Przykładowe źródło regionalne</title>
+    <link>https://news.example.org</link>
+    <item>
+      <title>Nowy most na Wiśle otwarty dla ruchu po 3 latach budowy</title>
+      <link>https://news.example.org/most-wisla/?utm_source=rss&amp;utm_medium=feed</link>
+      <description><![CDATA[<p>Inwestycja kosztowała <b>420 mln zł</b>. Most ma cztery pasy ruchu.</p>]]></description>
+      <pubDate>Thu, 29 Oct 2026 08:30:00 +0100</pubDate>
+      <category>infrastruktura</category>
+      <category>transport</category>
+    </item>
+    <item>
+      <title>Rada miasta przyjęła budżet na 2027 rok</title>
+      <link>https://news.example.org/budzet-2027#comments</link>
+      <description>Budżet zakłada wzrost wydatków na transport publiczny.</description>
+      <pubDate>Thu, 29 Oct 2026 06:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>https://news.example.org/bez-tytulu</link>
+    </item>
+  </channel>
+</rss>
