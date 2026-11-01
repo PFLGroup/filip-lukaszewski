@@ -16,6 +16,7 @@ W portfolio jest 8 kampanii z wynikami: e-commerce (ROAS z 815% do 1 152% i z 56
 |---|---|
 | [ai-newsroom-pipeline](./ai-newsroom-pipeline) | Redakcja AI: RSS, ocena newsów, LLM, publikacja w WordPressie, oznaczenia AI Act |
 | [contracts-saas-case-study](./contracts-saas-case-study) | Aplikacja webowa do umów: szyfrowanie danych osobowych (AES-GCM), RBAC, zabezpieczenia Next.js |
+| [tender-panel-case-study](./tender-panel-case-study) | Panel przetargowy: jak działa, schematy, klasyfikacja CPV, analiza AI GO / NO-GO (opis bez kodu) |
 
 #### Systemy, które zbudowałem i utrzymuję
 
@@ -25,7 +26,7 @@ W portfolio jest 8 kampanii z wynikami: e-commerce (ROAS z 815% do 1 152% i z 56
 | Panel przetargowy (Cognify, produkcja od 08.2026) | Pobieranie przetargów z API UE (TED) i Biuletynu Zamówień Publicznych, ocena dopasowania po CPV, analiza AI, dokumenty ofertowe DOCX / PDF; ponad 1 800 postępowań w bazie | Python, FastAPI, SQLite, Caddy |
 | System zarządzania spółkami (PFL Group) | Budżet projektów na kamieniach milowych, raport planu i wykonania, cele, cofanie zmian, analiza recenzji gier z AI | TypeScript, Fastify, Prisma, PostgreSQL, Docker |
 
-Kod tych systemów jest prywatny; publiczne przykłady są w repozytoriach powyżej.
+Kod tych systemów jest prywatny. Opis działania panelu przetargowego ze schematami jest w [tender-panel-case-study](./tender-panel-case-study).
 
 #### Strony i grafiki
 
