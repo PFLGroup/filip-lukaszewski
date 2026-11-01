@@ -6,7 +6,7 @@ Od 9 lat pracuję w marketingu internetowym. Wcześniej przez 7 lat prowadziłem
 
 **[CV (PDF, 2 strony)](./CV_Filip_Lukaszewski.pdf)**: performance marketing i systemy IT / AI.
 
-**[Portfolio (PDF, 7 stron)](./Portfolio_Filip_Lukaszewski.pdf)**: kampanie z wynikami, strony internetowe i grafiki.
+**[Portfolio (PDF, 8 stron)](./Portfolio_Filip_Lukaszewski.pdf)**: kampanie z wynikami, systemy IT i AI, strony internetowe i grafiki.
 
 Wyniki kampanii klientów agencji są objęte umowami o poufności, dlatego w portfolio pokazuję liczby z kampanii restauracji DIFFERENT, które prowadzimy w PFL Group (Meta Ads: ROAS 690%, 165 zakupów na stronie, II–X 2026).
 
