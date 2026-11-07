@@ -2,7 +2,7 @@
 
 **Performance Marketing i automatyzacje AI: Google Ads, Meta Ads, GA4 / GTM, Python** · Warszawa
 
-Od 9 lat pracuję w marketingu internetowym. Wcześniej przez 7 lat prowadziłem social media w Polskim Radiu. Od 2022 roku prowadzę kampanie Google Ads i Meta Ads klientów agencji performance (e-commerce i B2B, Polska i rynek DACH): strategię, pomiar konwersji (GA4, GTM, Consent Mode v2), optymalizację i automatyzacje w Pythonie. Buduję też i utrzymuję systemy: redakcję AI portalu Dziennik Narodowy, panel przetargowy i system zarządzania spółkami.
+Od 9 lat pracuję w marketingu internetowym. Wcześniej przez 7 lat prowadziłem social media w Polskim Radiu. Od 2022 roku prowadzę kampanie Google Ads i Meta Ads klientów agencji performance (e-commerce i B2B, Polska i rynek DACH): strategię, pomiar konwersji (GA4, GTM, Consent Mode v2), optymalizację i automatyzacje w Pythonie. Buduję też i utrzymuję systemy: system redakcyjny z AI dla portalu Dziennik Narodowy, panel przetargowy i system zarządzania spółkami.
 
 **[CV (PDF, 2 strony)](./CV_Filip_Lukaszewski.pdf)**: performance marketing i systemy IT / AI.
 
@@ -14,7 +14,7 @@ W portfolio jest 8 kampanii z wynikami: e-commerce (ROAS z 815% do 1 152% i z 56
 
 | Repozytorium | O czym |
 |---|---|
-| [ai-newsroom-pipeline](./ai-newsroom-pipeline) | Redakcja AI: RSS, ocena newsów, LLM, publikacja w WordPressie, oznaczenia AI Act |
+| [ai-newsroom-pipeline](./ai-newsroom-pipeline) | System redakcyjny z AI: RSS, ocena newsów, LLM, publikacja w WordPressie, oznaczenia AI Act |
 | [contracts-saas-case-study](./contracts-saas-case-study) | Aplikacja webowa do umów: szyfrowanie danych osobowych (AES-GCM), RBAC, zabezpieczenia Next.js |
 | [tender-panel-case-study](./tender-panel-case-study) | Panel przetargowy: jak działa, schematy, klasyfikacja CPV, analiza AI GO / NO-GO (opis bez kodu) |
 
@@ -22,7 +22,7 @@ W portfolio jest 8 kampanii z wynikami: e-commerce (ROAS z 815% do 1 152% i z 56
 
 | System | Co robi | Technologie |
 |---|---|---|
-| Dziennik Narodowy (dzienniknarodowy.pl): wdrożenie i redakcja AI | Przeniesienie portalu na nowy serwer, monitoring 118 źródeł, redakcja tekstów, ilustracje i publikacja w WordPressie, na Facebooku i Instagramie; ponad 1 600 artykułów w najlepszym miesiącu | Python, Claude / OpenAI API, WordPress REST API, Meta Graph API |
+| Dziennik Narodowy (dzienniknarodowy.pl): wdrożenie i automatyzacje | Przeniesienie portalu na nowy serwer, monitoring 118 źródeł, redakcja tekstów, ilustracje i publikacja w WordPressie, na Facebooku i Instagramie | Python, Claude / OpenAI API, WordPress REST API, Meta Graph API |
 | Panel przetargowy (Cognify, produkcja od 08.2026) | Pobieranie przetargów z API UE (TED) i Biuletynu Zamówień Publicznych, ocena dopasowania po CPV, analiza AI, dokumenty ofertowe DOCX / PDF; ponad 1 800 postępowań w bazie | Python, FastAPI, SQLite, Caddy |
 | System zarządzania spółkami (PFL Group) | Budżet projektów na kamieniach milowych, raport planu i wykonania, cele, cofanie zmian, analiza recenzji gier z AI | TypeScript, Fastify, Prisma, PostgreSQL, Docker |
 

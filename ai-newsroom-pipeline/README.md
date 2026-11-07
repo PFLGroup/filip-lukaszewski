@@ -24,7 +24,7 @@ Wieloetapowy potok, w którym **tanie i deterministyczne kroki odsiewają materi
 3. **Opracowanie przez LLM** — model dostaje tylko kandydatów powyżej progu; zwraca JSON walidowany pole po polu. Model może skorygować ocenę w wąskim zakresie, ale nie decyduje sam.
 4. **SEO** — tytuł/meta description, linkowanie wewnętrzne, optymalizacje oparte na danych z Google Search Console.
 5. **Grafika** — generowanie ilustracji AI z obowiązkowym podpisem.
-6. **Publikacja** — WordPress REST API (Application Passwords), idempotentnie po slugu.
+6. **Publikacja** — WordPress REST API, idempotentnie po slugu.
 7. **Dystrybucja** — Meta Graph API (strony Facebook / Instagram) z kartami graficznymi.
 8. **Oznaczanie AI** — flagi zapisane w metadanych posta + podpisy pod grafikami; podejście oparte na art. 50 AI Act, z treścią pod kontrolą redakcyjną.
 
@@ -33,7 +33,7 @@ Wieloetapowy potok, w którym **tanie i deterministyczne kroki odsiewają materi
 ```mermaid
 flowchart LR
     subgraph SRC["Źródła"]
-        S1[118 źródeł<br/>48 z RSS]:::src
+        S1[118 źródeł]:::src
     end
     subgraph PIPE["Potok (zadania harmonogramu)"]
         I[Ingest<br/>RSS/Atom + dedup] --> SC[Scoring<br/>deterministyczny]
@@ -59,19 +59,17 @@ Każdy etap w produkcji to osobne zadanie harmonogramu z własną blokadą (żeb
 
 - **Python 3.12**, SQLAlchemy (SQLite, schemat przygotowany pod PostgreSQL), `requests`
 - **LLM** za wspólnym interfejsem (dostawca wymienny bez zmian w potoku)
-- **WordPress** (REST API, Application Passwords, mu-pluginy), Docker
+- **WordPress** (REST API)
 - **Meta Graph API** (publikacja na stronach FB i profilach IG)
 - **Google Search Console API** (dane do optymalizacji SEO)
-- Harmonogram zadań systemu + watchdogi, `pytest`
+- Harmonogram zadań, `pytest`
 
 ## Wyniki / skala
 
 | Metryka | Wartość |
 |---|---|
-| Monitorowane źródła | **118** (48 z działającym RSS) |
-| Zadania w harmonogramie | **31** |
+| Monitorowane źródła | **118** |
 | Testy jednostkowe w projekcie produkcyjnym | **~160** |
-| Artykuły opublikowane w sierpniu 2026 | **1 615** |
 | Oznaczanie treści AI | zgodnie z art. 50 AI Act, pod kontrolą redakcyjną |
 
 ## Co zawiera to repozytorium
